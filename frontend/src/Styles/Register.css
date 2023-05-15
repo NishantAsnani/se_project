@@ -1,0 +1,139 @@
+.content_box
+{
+    background-color: white;
+    width: 450px;
+    height: 440px;
+    box-shadow: 0px 2px 5px black;
+}
+body
+{
+    background:url('../Images/02PP\ real\ estate.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+.content_alignment
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 3px;
+}
+.sub-heading
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.field-name
+{
+    font-size: 12px;
+}
+
+.Name-container
+{
+    margin-top: 35px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.Last-Name-container
+{
+    margin-top: 30px;
+    margin-left: 40px;
+    display: inline-block;
+}
+.email-container
+{
+    margin-top: 35px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.password-container
+{
+    margin-top: 35px;
+    margin-left: 15px;
+    display: inline-block
+}
+.contact-container
+{
+    margin-top: 35px;
+    margin-left: 40px;
+    display: inline-block; 
+}
+.confirm-password-container
+{
+    margin-top: 35px;
+    margin-left: 40px;
+    display: inline-block; 
+}
+.email
+{
+    border:2px solid rgb(120, 208, 237);
+    width: 190px;
+    font-weight: bold;
+    height: 20px;
+    outline: none;
+}
+.password
+{
+    border:2px solid rgb(120, 208, 237);
+    width: 190px;
+    font-weight: bold;
+    height: 20px;
+    outline: none;
+}
+.Name
+{
+    border:2px solid rgb(120, 208, 237);
+    width: 190px;
+    font-weight: bold;
+    height: 20px;
+    outline: none;
+}
+.sign-up
+{
+    margin-top: 30px;
+    margin-left: 160px;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(120, 208, 237);
+    outline: none;
+    border: 1px solid rgb(120, 208, 237);
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+.sign-up:hover
+{
+color: white;
+transform: translateY(-2px);
+transition-timing-function: ease-in-out;
+transition-duration: 300ms;
+box-shadow:0px 2px 5px rgb(120, 208, 237);
+}
+.user_login
+{
+ margin-top: 20px;
+ margin-left: 120px;   
+}
+.link
+{
+text-decoration: none;
+color:rgb(57, 195, 241);
+font-weight: bold;
+}
+.validation
+{
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+}

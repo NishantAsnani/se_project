@@ -1,0 +1,22 @@
+body{
+
+}
+
+.cart-item-alignment
+{
+    
+}
+.cart-items
+{
+    background-color: white;
+    max-width: 70%;
+    height: 150px;
+    position: relative;
+    border: 1px solid black;
+    margin-top: 12px;
+}
+.cart-img
+{
+    max-width: 200px;
+    height:150px ;
+}
